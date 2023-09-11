@@ -7,7 +7,7 @@ The purpose of this repo is to generate the descriptive statistics on datasets u
 ### Files 
 
 - ``.devcontainer`` configures local development container environment
-- ``github/workflows/CI.yml`` triggers CI/CD on git push and pull request
+- ``github/workflows/ci.yml`` triggers CI/CD on git push and pull request
 - ``.gitignore`` specifies which files or directories should be excluded from version control when using Git
 - ``Makefile`` build commands and utilities
 - ``README.md`` instruction file for the readers
