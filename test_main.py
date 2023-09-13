@@ -11,11 +11,11 @@ def test_csvfile():
     result = csvfile(main_data)
     
     # mean value of the 1st column
-    mean_1_column = test_csvfile.iloc[:, 1]["mean"]
+    mean_1_column = result.iloc[:, 1]["mean"]
     # print(mean_1_column)
     assert mean_1_column == 446
     # min value of 1st column 
-    min_4_column = test_csvfile.iloc[:, 1]["min"]
+    min_4_column = result.iloc[:, 1]["min"]
     # print(min_1_column)
     assert min_1_column == 1
 
